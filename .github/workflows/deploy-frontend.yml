@@ -1,8 +1,8 @@
-name: Deploy frontend application
+name: Deploy prod application
 'on':
   push:
     branches:
-      - main
+      - prod
 jobs:
   docker:
     runs-on: ubuntu-latest
